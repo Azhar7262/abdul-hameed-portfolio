@@ -4,12 +4,12 @@
    ============================================================ */
 
 :root {
-  --bg: #05070f;
-  --bg-2: #0a0e1a;
-  --card: rgba(255, 255, 255, 0.04);
-  --card-border: rgba(255, 255, 255, 0.09);
-  --text: #e8ecf4;
-  --muted: #9aa3b5;
+  --bg: #131a33;
+  --bg-2: #1a2342;
+  --card: rgba(255, 255, 255, 0.075);
+  --card-border: rgba(255, 255, 255, 0.15);
+  --text: #f4f7fd;
+  --muted: #c0c9dc;
   --c1: #00e5a0;   /* neon green */
   --c2: #4f8cff;   /* electric blue */
   --c3: #a855f7;   /* purple */
@@ -35,8 +35,8 @@ body {
 /* Scrollbar */
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track { background: var(--bg); }
-::-webkit-scrollbar-thumb { background: #1c2333; border-radius: 8px; }
-::-webkit-scrollbar-thumb:hover { background: #2a3450; }
+::-webkit-scrollbar-thumb { background: #2c3558; border-radius: 8px; }
+::-webkit-scrollbar-thumb:hover { background: #3c4877; }
 
 /* ---------- 3D BACKGROUND ---------- */
 #bg3d {
@@ -52,8 +52,8 @@ body {
   z-index: -1;
   pointer-events: none;
   background-image:
-    linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
-    linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    linear-gradient(rgba(255,255,255,0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,0.05) 1px, transparent 1px);
   background-size: 60px 60px;
   mask-image: radial-gradient(ellipse 90% 70% at 50% 40%, #000 30%, transparent 75%);
   -webkit-mask-image: radial-gradient(ellipse 90% 70% at 50% 40%, #000 30%, transparent 75%);
@@ -78,7 +78,7 @@ body {
   width: 64px;
   height: 64px;
   border-radius: 50%;
-  border: 3px solid rgba(255,255,255,0.08);
+  border: 3px solid rgba(255,255,255,0.15);
   border-top-color: var(--c1);
   border-right-color: var(--c2);
   animation: spin 0.9s linear infinite;
@@ -106,7 +106,7 @@ body {
   border-bottom: 1px solid transparent;
 }
 .navbar.scrolled {
-  background: rgba(5, 7, 15, 0.72);
+  background: rgba(19, 26, 51, 0.78);
   backdrop-filter: blur(16px);
   -webkit-backdrop-filter: blur(16px);
   border-bottom-color: var(--card-border);
@@ -205,6 +205,7 @@ body {
   text-align: center;
   position: relative;
   padding: 120px 24px 80px;
+  background: radial-gradient(ellipse 65% 55% at 45% 40%, rgba(79, 140, 255, 0.14), transparent 70%);
 }
 .hero-inner { max-width: 900px; }
 
@@ -383,7 +384,7 @@ body {
   overflow: hidden;
   border-top: 1px solid var(--card-border);
   border-bottom: 1px solid var(--card-border);
-  background: rgba(255,255,255,0.02);
+  background: rgba(255,255,255,0.045);
   padding: 18px 0;
 }
 .marquee-track {
@@ -747,7 +748,7 @@ body {
   .nav-links {
     position: fixed;
     inset: 0;
-    background: rgba(5, 7, 15, 0.96);
+    background: rgba(19, 26, 51, 0.97);
     backdrop-filter: blur(20px);
     flex-direction: column;
     justify-content: center;

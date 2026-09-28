@@ -115,10 +115,10 @@ document.getElementById("year").textContent = new Date().getFullYear();
   dustGeo.setAttribute("position", new THREE.BufferAttribute(dustPositions, 3));
   dustGeo.setAttribute("color", new THREE.BufferAttribute(dustColors, 3));
   const dustMat = new THREE.PointsMaterial({
-    size: 0.045,
+    size: 0.05,
     vertexColors: true,
     transparent: true,
-    opacity: 0.55,
+    opacity: 0.7,
     blending: THREE.AdditiveBlending,
     depthWrite: false,
   });
