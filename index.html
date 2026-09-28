@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Abdul Hameed — Project Coordinator | Data Management | Training</title>
+  <meta name="description" content="Portfolio of Abdul Hameed — Computer Science graduate specializing in project coordination, data management, IT support & training for development-sector programs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@400;600;700;800&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⚡</text></svg>" />
+</head>
+<body>
+
+  <!-- ===== 3D BACKGROUND ===== -->
+  <canvas id="bg3d" aria-hidden="true"></canvas>
+  <div class="grid-overlay" aria-hidden="true"></div>
+
+  <!-- ===== PRELOADER ===== -->
+  <div id="preloader">
+    <div class="loader-ring"></div>
+    <div class="loader-text">LOADING PORTFOLIO</div>
+  </div>
+
+  <!-- ===== NAVBAR ===== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-inner">
+      <a href="#hero" class="logo">AH<span class="logo-dot">.</span></a>
+      <nav>
+        <ul class="nav-links" id="navLinks">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#experience" class="nav-link">Experience</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+          <li><a href="Abdul_Hameed_CV (1).docx" download class="nav-cta">Resume ⤓</a></li>
+        </ul>
+      </nav>
+      <button class="burger" id="burger" aria-label="Toggle menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-inner">
+      <p class="hero-greet reveal">Hello, I'm</p>
+      <h1 class="hero-name reveal">Abdul <span class="grad-text">Hameed</span></h1>
+      <h2 class="hero-role reveal"><span class="typed">Project Coordination</span><span class="cursor"></span></h2>
+      <p class="hero-sub reveal">
+        Computer Science graduate with <b>3+ years</b> of experience across government- and
+        donor-funded development programs — coordinating projects, managing field data,
+        and building people's capacity.
+      </p>
+      <div class="hero-btns reveal">
+        <a href="#contact" class="btn btn-primary">Get in Touch</a>
+        <a href="#experience" class="btn btn-ghost">My Journey ↓</a>
+      </div>
+
+      <div class="hero-stats reveal" id="stats">
+        <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-plus">+</span><span class="stat-label">Years Experience</span></div>
+        <div class="stat"><span class="stat-num" data-count="6">0</span><span class="stat-plus">+</span><span class="stat-label">Roles & Projects</span></div>
+        <div class="stat"><span class="stat-num" data-count="3">0</span><span class="stat-plus"></span><span class="stat-label">Languages Spoken</span></div>
+        <div class="stat"><span class="stat-num" data-count="500">0</span><span class="stat-plus">+</span><span class="stat-label">People Trained</span></div>
+      </div>
+    </div>
+    <div class="scroll-hint"><span></span>Scroll</div>
+  </section>
+
+  <!-- ===== MARQUEE ===== -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Project Coordination ✦ Data Management ✦ Monitoring & Evaluation ✦ Stakeholder Liaison ✦ Training & Facilitation ✦ UNDP-Funded Programs ✦ Job Placement ✦ MS Office Suite ✦ Community Engagement ✦&nbsp;</span>
+      <span>Project Coordination ✦ Data Management ✦ Monitoring & Evaluation ✦ Stakeholder Liaison ✦ Training & Facilitation ✦ UNDP-Funded Programs ✦ Job Placement ✦ MS Office Suite ✦ Community Engagement ✦&nbsp;</span>
+    </div>
+  </div>
+
+  <!-- ===== ABOUT ===== -->
+  <section class="section" id="about">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">01 — About Me</span>
+        <h2 class="section-title">Turning coordination into <span class="grad-text">measurable impact</span></h2>
+      </div>
+      <div class="about-grid">
+        <div class="about-text reveal">
+          <p>
+            I'm <b>Abdul Hameed</b>, a Computer Science graduate from Bacha Khan University, Charsadda,
+            currently serving as <b>District Coordinator</b> on a UNDP-funded project in Swat focused on
+            women's participation, environmental justice and peacebuilding.
+          </p>
+          <p>
+            Over the last few years I've worked across the development sector — from job placement with
+            Hashoo Foundation's PSDF project, to computer literacy training in the hospitality sector,
+            to finance and bookkeeping earlier in my career. I bridge the gap between field teams,
+            government departments and donors: planning activities, maintaining MOVs, tracking progress
+            and turning field data into reports that keep projects on track.
+          </p>
+          <p>
+            I combine <b>strong IT skills</b> (MS Office, networking fundamentals, data management) with
+            <b>finance knowledge</b> and a passion for <b>training people</b> — that mix is what makes projects deliver.
+          </p>
+          <div class="lang-chips">
+            <span class="chip">🟢 Pashto — Native</span>
+            <span class="chip">🟡 Urdu — Fluent</span>
+            <span class="chip">🟡 English — Fluent</span>
+          </div>
+        </div>
+        <aside class="about-card reveal">
+          <div class="card-glow"></div>
+          <h3>Quick Facts</h3>
+          <ul class="facts">
+            <li><span class="fact-ico">📍</span><div><b>Based in</b><br>Peshawar, Pakistan</div></li>
+            <li><span class="fact-ico">🎓</span><div><b>BS Computer Science</b><br>Bacha Khan University, 2025</div></li>
+            <li><span class="fact-ico">💼</span><div><b>Currently</b><br>District Coordinator — UNDP Project, Swat</div></li>
+            <li><span class="fact-ico">✉️</span><div><b>Email</b><br>abdulhameedpk2020@gmail.com</div></li>
+            <li><span class="fact-ico">📞</span><div><b>Phone</b><br>0306-0912875</div></li>
+          </ul>
+          <a href="Abdul_Hameed_CV (1).docx" download class="btn btn-primary btn-full">Download Full CV ⤓</a>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section class="section" id="skills">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">02 — Skills</span>
+        <h2 class="section-title">What I bring to the <span class="grad-text">table</span></h2>
+      </div>
+      <div class="skills-grid">
+        <div class="skill-card reveal" style="--i:0">
+          <div class="skill-ico">🧭</div>
+          <h3>Project Coordination</h3>
+          <p>Stakeholder liaison, monitoring & evaluation, donor reporting, community engagement, social development sector policy.</p>
+        </div>
+        <div class="skill-card reveal" style="--i:1">
+          <div class="skill-ico">🗄️</div>
+          <h3>Data Management</h3>
+          <p>Field data collection, attendance records, photographs & MOVs, placement databases, MS Excel reporting.</p>
+        </div>
+        <div class="skill-card reveal" style="--i:2">
+          <div class="skill-ico">💻</div>
+          <h3>IT & Networking</h3>
+          <p>Computer operations, LAN/WAN, IP addressing, DNS/DHCP basics, network troubleshooting, hardware/software support.</p>
+        </div>
+        <div class="skill-card reveal" style="--i:3">
+          <div class="skill-ico">🎓</div>
+          <h3>Training & Facilitation</h3>
+          <p>Computer literacy training, lesson planning, assessments, learner-centered support, awareness sessions & panel discussions.</p>
+        </div>
+        <div class="skill-card reveal" style="--i:4">
+          <div class="skill-ico">📊</div>
+          <h3>Finance & Admin</h3>
+          <p>Bookkeeping, financial records, profit & loss statements, balance sheets, forex risk analysis.</p>
+        </div>
+        <div class="skill-card reveal" style="--i:5">
+          <div class="skill-ico">🎨</div>
+          <h3>Digital & Creative</h3>
+          <p>Adobe Illustrator, photo editing, social media advertising and campaign management.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EXPERIENCE ===== -->
+  <section class="section" id="experience">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">03 — Experience</span>
+        <h2 class="section-title">Where I've <span class="grad-text">worked</span></h2>
+      </div>
+      <div class="timeline">
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">Jun 2026 — Nov 2026 · UNDP-Funded</span>
+            <h3>District Coordinator</h3>
+            <h4>Empowering Women for Environmental Peace & Justice in Swat</h4>
+            <ul>
+              <li>Coordinated district-level implementation on women's participation, environmental justice & peacebuilding.</li>
+              <li>Liaised with government departments, EHRDs, UNDP consultants & project teams.</li>
+              <li>Organized trainings, awareness activities, panel discussions & community events.</li>
+              <li>Maintained field data, attendance, photographs & other MOVs; tracked progress and reported to management.</li>
+            </ul>
+            <div class="tags"><span>UNDP</span><span>M&E</span><span>Community Engagement</span></div>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">Jan 2026 — Jun 2026 · PSDF-Funded</span>
+            <h3>Job Placement Officer</h3>
+            <h4>Hashoo Foundation, Peshawar</h4>
+            <ul>
+              <li>Coordinated job placements for trainees under a PSDF skills development project.</li>
+              <li>Liaised with employers, hotels & companies to create employment opportunities.</li>
+              <li>Managed screening, shortlisting, interview coordination & post-placement follow-up.</li>
+              <li>Maintained placement databases that fed directly into project reporting.</li>
+            </ul>
+            <div class="tags"><span>Placement</span><span>Employer Liaison</span><span>Databases</span></div>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">Oct 2025 — Dec 2025</span>
+            <h3>Computer Literacy Trainer</h3>
+            <h4>Hospitality Sector Training Program</h4>
+            <ul>
+              <li>Delivered digital literacy & hospitality-focused computer training (MS Office, email, PMS/POS, online booking systems).</li>
+              <li>Developed lesson plans, assessments & progress reports with hands-on, learner-centered support.</li>
+              <li>Boosted trainees' digital skills & employability in the hospitality industry.</li>
+            </ul>
+            <div class="tags"><span>MS Office</span><span>Teaching</span><span>Hospitality</span></div>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2021 — 2023</span>
+            <h3>Forex Trading Trainer</h3>
+            <h4>Self-Employed</h4>
+            <ul>
+              <li>Built & led a mentorship program on risk management and technical analysis.</li>
+              <li>Managed personal & mentee portfolios with data-driven strategies.</li>
+            </ul>
+            <div class="tags"><span>Risk Management</span><span>Mentorship</span></div>
+          </div>
+        </div>
+        <div class="tl-item reveal">
+          <div class="tl-dot"></div>
+          <div class="tl-card">
+            <span class="tl-date">2018 — 2020</span>
+            <h3>Accountant / Staff Trainer</h3>
+            <h4>Zaheer Trades</h4>
+            <ul>
+              <li>Managed company accounts & implemented an efficient bookkeeping system.</li>
+              <li>Prepared P&L statements & balance sheets to inform business decisions.</li>
+              <li>Handled client inquiries on accounts & payments.</li>
+            </ul>
+            <div class="tags"><span>Bookkeeping</span><span>P&L</span><span>Client Relations</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== EDUCATION ===== -->
+  <section class="section" id="education">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">04 — Education</span>
+        <h2 class="section-title">Learning <span class="grad-text">credentials</span></h2>
+      </div>
+      <div class="edu-grid">
+        <div class="edu-card reveal" style="--i:0">
+          <span class="edu-date">2025</span>
+          <h3>BS Computer Science</h3>
+          <p>Bacha Khan University, Charsadda</p>
+        </div>
+        <div class="edu-card reveal" style="--i:1">
+          <span class="edu-date">07/2021</span>
+          <h3>Diploma in Information Technology</h3>
+          <p>Cyber Institute of Technology — networking, MS Office, databases, hardware & software troubleshooting</p>
+        </div>
+        <div class="edu-card reveal" style="--i:2">
+          <span class="edu-date">Certificate</span>
+          <h3>Project Management Essentials</h3>
+          <p>Planning, scheduling, risk management, stakeholder communication, M&E</p>
+        </div>
+        <div class="edu-card reveal" style="--i:3">
+          <span class="edu-date">03/2019</span>
+          <h3>Secondary School Certificate</h3>
+          <p>Shabqadar Students Academy — Score: 868/1100</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section class="section" id="contact">
+    <div class="container">
+      <div class="section-head reveal">
+        <span class="section-tag">05 — Contact</span>
+        <h2 class="section-title">Let's <span class="grad-text">work together</span></h2>
+      </div>
+      <div class="contact-wrap reveal">
+        <p class="contact-lead">
+          Looking for someone who can coordinate projects, keep the data clean and train the team?
+          My inbox is always open.
+        </p>
+        <div class="contact-cards">
+          <a href="mailto:abdulhameedpk2020@gmail.com" class="contact-card">
+            <span class="cc-ico">✉️</span>
+            <span class="cc-label">Email</span>
+            <span class="cc-value">abdulhameedpk2020@gmail.com</span>
+          </a>
+          <a href="tel:+923060912875" class="contact-card">
+            <span class="cc-ico">📞</span>
+            <span class="cc-label">Phone</span>
+            <span class="cc-value">0306-0912875</span>
+          </a>
+          <div class="contact-card">
+            <span class="cc-ico">📍</span>
+            <span class="cc-label">Location</span>
+            <span class="cc-value">Peshawar, Pakistan</span>
+          </div>
+        </div>
+        <a href="Abdul_Hameed_CV (1).docx" download class="btn btn-primary btn-lg">⤓ Download Resume</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer class="footer">
+    <p>© <span id="year"></span> Abdul Hameed — Built with 💚 in Peshawar, Pakistan</p>
+    <a href="#hero" class="to-top" aria-label="Back to top">↑</a>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/0.160.0/three.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
